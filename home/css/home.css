@@ -1,0 +1,16 @@
+body{
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/istockphoto-1341288649-612x612.jpg);
+    background-size: cover;
+}
+.container{
+    height: 100vh;
+}
+.container-body{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 50px;
+
+}
+h1{
+    color: #fff;
+}

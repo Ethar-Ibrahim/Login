@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Sign up</title>
+</head>
+<body>
+    <div class="container d-flex justify-content-center align-items-center py-5">
+        
+    <form action="" class="d-flex flex-column p-5" id="registration">
+        <h3 class="mb-4">Smart Login System</h3>
+        <input id="username" type="text" name="text" placeholder="Enter your name" class="form-control mb-3 w-100 p-2 ">
+        <input id="email" type="email" name="email" placeholder="Enter your email" class="form-control mb-3 w-100 p-2 ">
+        <input id="password" type="password" name="password" placeholder="Enter your password" class="form-control mb-3 w-100 p-2 ">
+        <div class="alert alert-danger d-none" role="alert" id="nameAlert">name</div>
+        <div class="alert alert-danger d-none" role="alert" id="emailAlert">email</div>
+        <div class="alert alert-danger d-none" role="alert" id="passAlert">password</div>
+        <div class="alert alert-danger d-none" role="alert" id="existAlert">Email is already exist</div>
+        <div class="alert alert-success d-none" role="alert" id="success">Success</div>
+        
+        <button class="w-50 m-auto mt-3 p-1" id="sub" type="submit">Sign Up</button>
+    </form>
+</div>
+    
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
